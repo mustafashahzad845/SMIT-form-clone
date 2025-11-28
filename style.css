@@ -1,0 +1,580 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: Signika;
+}
+
+.header{
+
+    width: 80%;
+    margin: 0px auto;
+    height: 100%;
+    background-image:  linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),url(./Images/image\ 706.png) ;
+    background-position: center center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding:20px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 1px; */
+    /* text-align: center; */
+   
+}
+
+.Parent-Saylanilogo{
+
+text-align: center;
+padding: 15px;
+
+}
+
+
+.Saylanilogo{
+
+    width: 200px;
+    height: 55px;
+text-align: center;
+}
+
+.heading1{
+
+    text-align: center;
+    font-weight: bold;
+    font-family:Arima,Arial-black,Helvetica ;
+    font-size: 20px;
+    /* display: inline-block; */
+}
+.images{
+
+    text-align: center;
+    margin: 15px 10px;
+}
+.images img{
+
+    width: 30px;
+    height: 30px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.images a{
+
+    text-decoration: none;
+}
+
+.Services-Education-Regestration{
+  font-weight: normal;
+  font-size: 16px;
+  color: rgb(146, 144, 144);
+
+}
+
+.tabs{
+
+    text-decoration: none;
+    padding: 8px 16px;
+    margin: 10px 10px 20px 10px;
+    text-align: center;
+    
+}
+
+.tabs a{
+
+    text-decoration: none;
+  
+    font-size: 14px ;
+    font-family: Signika;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.anchor-Registration{
+
+    border: 1px rgb(235, 230, 230) solid;
+    padding: 6px 12px;
+    background-color: white;
+    color: #8dc63f;
+    text-align: center;
+}
+
+.anchor-Download{
+
+    text-align: center;
+    padding: 6px 12px;
+    background-color: #FAFAFA;
+    border: 1px solid #FAFAFA;
+      color: #0d6db7;
+}
+
+.anchor-Results{
+
+    text-align: center;
+    padding: 6px 12px;
+    background-color: #FAFAFA;
+    border: 1px solid #FAFAFA;
+      color: #0d6db7;
+}
+
+.navbar{
+
+    background-color: white;
+}
+
+.inputfields{
+
+margin: 0px auto;
+outline: none;
+text-align:justify;
+width: 100%;
+height: 100%;
+
+}
+
+.Counry-Container{
+
+    display: inline-block;
+   
+   
+}
+
+.Preference-Container{
+
+    display: inline-block;
+}
+
+.Gender-Container{
+
+display: inline-block    
+}
+
+.Counry-Container select{
+
+    width: 300px;
+    height: 30px;
+     padding:  0px 20px 0px;
+    border: 1px solid #8dc63f;
+   font-size: 14px;
+   font-family: Signika;
+   margin:0px 20px 0px;
+   outline: none;
+   border-radius: 8px;
+   margin-bottom: 15px;
+}
+
+.Counry-Span,
+.Preference-Span,
+.Gender-Span,
+.City-Span,
+.Course-Span,
+.Fullname-Span,
+.Phone-Span,
+.CNIC-Span,
+.FatherCNIC-Span,
+.DOB-Span,
+.Proficiency-Span,
+.Q-Span,
+.Qualification-span,
+.Address-Span,
+.Picture-Span{
+
+     font-size: 14px;
+    font-family:Signika ;
+    color: #0d6db7;
+    margin: 0px 0px 5px;
+    text-align: center;
+    position: relative;
+    left: 22px;
+   
+ 
+}
+
+.Preference-Container select{
+
+     width: 300px;
+    height: 30px;
+    padding:  0px 20px 0px;
+    border: 1px solid #8dc63f;
+   font-size: 14px;
+   font-family: Signika;
+   margin:0px 20px 0px;
+   outline: none;
+   border-radius: 8px;
+   margin-bottom: 15px;
+   
+}
+
+.content{
+
+
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Gender-Container select{
+
+
+     width: 300px;
+    height: 30px;
+    padding:  0px 20px 0px;
+    border: 1px solid #8dc63f;
+   font-size: 14px;
+   font-family: Signika;
+   margin:0px 20px 0px;
+   outline: none;
+   border-radius: 8px;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.City-Container select{
+
+ width: 300px;
+    height: 30px;
+    padding:  0px 20px 0px;
+    border: 1px solid #8dc63f;
+   font-size: 14px;
+   font-family: Signika;
+   margin:0px 20px 0px;
+   outline: none;
+   border-radius: 8px;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.City-Container{
+
+    display: inline-block;
+}
+
+.Course-Container{
+
+    display: inline-block;
+}
+
+.Course-Container select{
+
+    width: 300px;
+    height: 30px;
+    padding:  0px 20px 0px;
+    border: 1px solid #8dc63f;
+   font-size: 14px;
+   font-family: Signika;
+   margin:0px 20px 0px;
+   outline: none;
+   border-radius: 8px;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.Fullname-Container{
+
+    display: inline-block;
+}
+
+.Fullname-Container input{
+
+     width: 300px;
+    height: 30px;
+    padding:  0px 20px 0px;
+    border: 1px solid #8dc63f;
+   font-size: 14px;
+   font-family: Signika;
+   margin:0px 20px 0px;
+   outline: none;
+   border-radius: 8px;
+  display: inline-block;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+
+.Fullname-Container input:hover{
+
+border: 1px solid rgb(87, 153, 174);
+}
+
+.Phone-Container{
+
+    display: inline-block;
+}
+
+.Phone-Container input{
+
+width: 300px;
+    height: 30px;
+    padding:  0px 20px 0px;
+    border: 1px solid #8dc63f;
+   font-size: 14px;
+   font-family: Signika;
+   margin:0px 20px 0px;
+   outline: none;
+   border-radius: 8px;
+  display: inline-block;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;    
+}
+
+.Phone-Container input:hover{
+
+border: 1px solid rgb(87, 153, 174);
+}
+
+.CNIC-Container{
+
+    display: inline-block;
+}
+
+.CNIC-Container input{
+
+    
+width: 300px;
+    height: 30px;
+    padding:  0px 20px 0px;
+    border: 1px solid #8dc63f;
+   font-size: 14px;
+   font-family: Signika;
+   margin:0px 20px 0px;
+   outline: none;
+   border-radius: 8px;
+  display: inline-block;
+  margin-bottom: 15px;
+  transition: all 0.3s ease; 
+}
+
+.CNIC-Container input:hover{
+
+    border: 1px solid rgb(87, 153, 174);
+}
+
+.FatherCNIC-Container{
+
+    display: inline-block;
+}
+
+.FatherCNIC-Container input{
+
+    width: 300px;
+    height: 30px;
+    padding:  0px 20px 0px;
+    border: 1px solid #8dc63f;
+   font-size: 14px;
+   font-family: Signika;
+   margin:0px 20px 0px;
+   outline: none;
+   border-radius: 8px;
+  display: inline-block;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+
+.FatherCNIC-Container input:hover{
+
+ border: 1px solid rgb(87, 153, 174);
+}
+ 
+.DOB-Container{
+
+    display: inline-block;
+}
+
+.DOB-Container input{
+
+     width: 300px;
+    height: 30px;
+    padding:  0px 20px 0px;
+    border: 1px solid #8dc63f;
+   font-size: 14px;
+   font-family: Signika;
+   margin:0px 20px 0px;
+   outline: none;
+   border-radius: 8px;
+  display: inline-block;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+
+.DOB-Container input:hover{
+border: 1px solid rgb(87, 153, 174);
+}
+
+.Proficiency-Conatiner{
+
+    display: inline-block;
+}
+
+.Proficiency-Conatiner select{
+
+      width: 300px;
+    height: 30px;
+    padding:  0px 20px 0px;
+    border: 1px solid #8dc63f;
+   font-size: 14px;
+   font-family: Signika;
+   margin:0px 20px 0px;
+   outline: none;
+   border-radius: 8px;
+  display: inline-block;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+
+.Q-container{
+
+    display: inline-block;
+}
+
+.Q-container select{
+
+    width: 300px;
+    height: 30px;
+    padding:  0px 20px 0px;
+    border: 1px solid #8dc63f;
+   font-size: 14px;
+   font-family: Signika;
+   margin:0px 20px 0px;
+   outline: none;
+   border-radius: 8px;
+  display: inline-block;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+
+/* .Qualification-Conatiner{
+
+   
+} */
+
+.Qualification-Conatiner select{
+
+    width: 645px;
+    height: 30px;
+    padding:  0px 20px 0px;
+    border: 1px solid #8dc63f;
+   font-size: 14px;
+   font-family: Signika;
+   margin:0px 20px 0px;
+   outline: none;
+   border-radius: 8px;
+  display: inline-block;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+
+.Address-Container input{
+
+ width: 645px;
+    height: 30px;
+    padding:  0px 20px 0px;
+    border: 1px solid #8dc63f;
+   font-size: 14px;
+   font-family: Signika;
+   margin:0px 20px 0px;
+   outline: none;
+   border-radius: 8px;
+  display: inline-block;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+
+.Address-Container input:hover{
+
+ border: 1px solid rgb(87, 153, 174);
+}
+
+.Upload-btn{
+
+padding: 10px;
+ position: relative;
+ left: 20px;
+ right: 20px;
+ width: 75px;
+ height: 60px;
+ margin-bottom: 20px;
+ border-radius: 8px;
+ outline: none;
+ border: 1px solid gray;
+ border-style: dotted;
+ display: inline-block;
+
+}
+
+.listing{
+display: inline-block;
+position: relative;
+left: 30px;
+list-style-type: none;
+font-size: 12px;
+margin: 10px 20px 10px;
+}
+
+.Upload-Section{
+
+    display: flex;
+
+}
+
+.hr{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.list2{
+list-style-type: decimal;
+position: relative;
+margin-left: 20px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.parent-list2{
+
+    padding: 15px;
+}
+
+.check-border {
+  margin-left: 35px;
+  border: 1px solid gray;
+  display: flex;              
+  align-items: center;        
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  width: 260px;
+  background-color: #FAFAFA;
+  border-radius: 8px;               
+}
+
+.Im-not-a-robot-span {
+  font-family: roboto;
+  font-size: 14px;
+  margin-left: 8px;
+}
+
+#check {
+  transform: scale(1.5);      
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.Recaptcha2 {
+  height: 60px;
+  margin-left: 15px;
+}
+
+.btn{
+
+    background-color: #0d6db7;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    margin: 20px;
+    border: none;
+    border-radius: 8px;
+}
+
